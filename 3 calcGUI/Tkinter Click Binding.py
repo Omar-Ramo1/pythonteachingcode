@@ -22,3 +22,4 @@ frame.pack()
 root.title("Example of capturing a mouse click location.")
 #show the window - windows run in a loop listening for the window close button to break the loop
 root.mainloop()
+

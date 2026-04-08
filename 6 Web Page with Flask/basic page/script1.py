@@ -18,6 +18,10 @@ def greet():
     inputName = inputName.upper()+" hi!  Visiting from " + str(ip)
     return render_template("home.html",myName=inputName)
 
+@app.route('/Omar/')
+def OmarIdris():
+    return render_template('Omar.html')
+
 @app.route('/')
 def home():  
     return render_template("home.html",myName="Type your name in the box and click submit!")
